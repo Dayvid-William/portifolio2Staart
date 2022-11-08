@@ -1,76 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Portifolio</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <nav>
+
+<head>
+    <title>Portifolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#publicacoes">Publicações</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+            </ul>
+        </nav>
+        <h1>Dayvid William</h1>
+    </header>
+    <main>
+        <section>
+            <article class="sec">
+                <h2 id="formacao">Formação</h2>
+                <h3>Formações e oucupações</h3>
+                <p>Ensiono médio completo, atualmente estudo inglês e programação por conta própria tenho açlguns cursos
+                    concluidos na plataforma staart do grupo primo.</p>
+            </article>
+            <article class="sec">
+                <h2 id="publicacoes">Publicações</h2>
+                <h3>projetos no GitHub</h3>
+                <p>Tenho alguns projetos que podem ser encontrados em meu GitHub como automações Web e portifolios Web,
+                    também trenho um projeto criando o jogo da velha.</p>
+            </article>
+            <article class="sec">
+                <h2 id="habilidades">Habilidades</h2>
+                <h3>Skills</h3>
+
                 <ul>
-                    <li><a href="#formacao">Formação</a></li>
-                    <li><a href="#publicacoes">Publicações</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/512/1532/1532556.png" alt="HTML"></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="css"></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java"></li>
+                    <li><img src="https://pcodinomebzero.neocities.org/Imagens/javascript1.png" alt="JavaScript"></li>
+                    <li><img src="https://www.pngmart.com/files/7/Python-PNG-File.png" alt="Python"></li>
+                    <li><img src="https://img.icons8.com/windows/512/selenium-test-automation.png" alt="Selenium"></li>
                 </ul>
-            </nav>
-            <h1>Dayvid William</h1>
-        </header>
-        <main>
-            <section>
-                <article class="sec">
-                    <h2 id="formacao">Formação</h2>
-                    <h3>Formações e oucupações</h3>
-                    <p>Ensiono médio completo, atualmente estudo inglês e programação por conta própria tenho açlguns cursos concluidos na plataforma staart do grupo primo.</p>
-                </article>
-                <article class="sec">
-                    <h2 id="publicacoes">Publicações</h2>
-                    <h3>projetos no GitHub</h3>
-                    <p>Tenho alguns projetos que podem ser encontrados em meu GitHub como automações Web e portifolios Web, também trenho um projeto criando o jogo da velha.</p>
-                </article>
-                <article class="sec">
-                    <h2 id="habilidades">Habilidades</h2>
-                    <h3>Skills</h3>
-                    
-                    <ul>
-                        <li><img src="https://cdn-icons-png.flaticon.com/512/1532/1532556.png" alt="HTML"></li>
-                        <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="css"></li>
-                        <li><img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java"></li>
-                        <li><img src="https://pcodinomebzero.neocities.org/Imagens/javascript1.png" alt="JavaScript"></li>
-                        <li><img src="https://www.pngmart.com/files/7/Python-PNG-File.png" alt="Python"></li>
-                        <li><img src="https://img.icons8.com/windows/512/selenium-test-automation.png" alt="Selenium"></li>
-                    </ul>
-                </article>
-            </section>
-            <aside>
-                <h2>Vídeos em destaque</h2>
-            </aside>
-        </main>
-        <footer>
-            <h2>Entre em contato</h2>
-            <form>
-                <fieldset>
-                    <legend>Dados pessoais</legend>
+            </article>
+        </section>
+        <aside>
+            <h2>Vídeos em destaque</h2>
+
+            <video autoplay mute controls>
+               <source src="/video/Desktop 2022.06.19 - 16.47.37.16.mp4" type="video/mp4" alt="project_video">
+               Seu navegador não suporta vídeos!
+            </video>
+        </aside>
+    </main>
+    <footer>
+        <h2>Entre em contato</h2>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
                 <label form="nome">Nome </label><input type="text" id="nome" name="nome" placeholder="Digite seu nome">
-                <label form="email">E-mail</label><input type="email" id="email" value="dayvid@teste.com" disabled="true">
-                </fieldset>
-                <fieldset>
-                    <legend>Dados comerciais</legend>
+                <label form="email">E-mail</label><input type="email" id="email" value="dayvid@teste.com"
+                    disabled="true">
+            </fieldset>
+            <fieldset>
+                <legend>Dados comerciais</legend>
                 <label form="tel">Telefone</label><input type="tel" id="tel" required="true">
                 <label form="url">Website</label><input type="url" id="url">
-                </fieldset>
+            </fieldset>
 
-                <select>
-                   <option>Item 1</option> 
-                   <option>Item 2</option> 
-                   <option>Item 3</option> 
-                   <option>Item 4</option> 
-                   <option>Item 5</option> 
-                </select>
+            <select>
+                <option>Item 1</option>
+                <option>Item 2</option>
+                <option>Item 3</option>
+                <option>Item 4</option>
+                <option>Item 5</option>
+            </select>
 
-                <textarea rows="10" cols="10"></textarea>
-                <input type="submit" value="Enviar mensagem" id="submit">
-            </form>
-        </footer>
-    </body>
+            <textarea rows="10" cols="10"></textarea>
+            <input type="submit" value="Enviar mensagem" id="submit">
+        </form>
+    </footer>
+</body>
+
 </html>
