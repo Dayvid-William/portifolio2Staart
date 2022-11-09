@@ -4,6 +4,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main{
+    display: grid;
+    grid-template-areas:
+        "um dois";
+    grid-template-columns: auto 200px;
+
+}
+
+section {
+    grid-area: um;
+}
+
 header{
     background-color: #e5e5e5;
     padding: 20px;
@@ -24,6 +36,17 @@ article#habilidades{
     padding: 20px;
 }
 
+video {
+    width: 150px;
+}
+
 aside{
     background-color: #315e93;
+    grid-area: dois;
+}
+
+@media screen and (max-width: 1024px) {
+    main{
+        display: block;
+    }
 }
