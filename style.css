@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap');
 
-body {
+a{
+    background-color: #e5e5e5;
+    margin-left: 0px;
+    transition-property: background-color, margin-left;
+    transition-duration: 0.5s;
+    color: blue;
+}
+
+a:hover, a:focus{
+    background-color: yellow;
+    color: black;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+
+}
+
+body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,15 +31,16 @@ main{
 
 }
 
-section {
+section{
     grid-area: um;
 }
 
 header{
     background-color: #e5e5e5;
     padding: 20px;
+    text-align: center;
 }
-h1, h2 {
+h1, h2{
     text-align: center;
     font-family: 'Fredoka', sans-serif;
 }
@@ -36,16 +56,24 @@ article#habilidades{
     padding: 20px;
 }
 
-video {
+video{
     width: 150px;
 }
+
+#html{height: 75px; width: 75px;}
+#css{height: 85px; width: 85px;}
+#java{height: 75px; width: 75px;}
+#js{height: 75px; width: 75px;}
+#python{height: 75px; width: 75px;}
+#selenium{height: 75px; width: 75px;}
+
 
 aside{
     background-color: #315e93;
     grid-area: dois;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px){
     main{
         display: block;
     }
