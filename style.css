@@ -1,0 +1,22 @@
+header{
+    background-color: #e5e5e5;
+    padding: 20px;   
+}
+h1, h2 {
+    text-align: center;
+}
+
+article#publicacoes{
+    background-color: #e5e5e5;
+
+    padding: 20px;
+}
+
+article#habilidades{
+    background-color: #4387d8;
+    padding: 20px;
+}
+
+aside{
+    background-color: #315e93;
+}
