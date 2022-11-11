@@ -4,57 +4,153 @@
 <head>
     <title>Portifolio</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.s">
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
+            <ul id="links">
                 <li><a href="#formacao">Formação</a></li>
-                <li><a href="#publicacoes">Publicações</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#publicacoes">Publicações</a></li>
             </ul>
         </nav>
-        <h1>Dayvid William</h1>
-        <img src="img/1662302620616.jpg" alt="Dayvid William" id="pic">
+
+        <img src="img/1662302620616.jp" alt="Dayvid William">
+
+        <ul id="redes">
+            <li>
+                <a href="https://twitter.com/william_dayvid" target="_blink" rel="noreferrer noopener">
+                    <img src="images/twitter.svg" alt="Twitter">       
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/dayvid-william-7b5133235/" target="_blink" rel="noreferrer noopener">
+                    <img src="images/linkedin.svg" alt="LinkedIn">       
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Dayvid-William" target="_blink" rel="noreferrer noopener">
+                    <img src="images/github.svg" alt="GitHub">       
+                </a>
+            </li>
+            <li>
+                <a href="https://gmail.com" target="_blink" rel="noreferrer noopener">
+                    <img src="images/Email.svg" alt="Email">       
+                </a>
+            </li>
+        </ul>
     </header>
     <main>
-        <section>
-            <article class="sec"  id="formacao">
+        <section id="inicio">
+                <h1>
+                    Estudante em <span>automação e desenvolvimento web, tester e desenvolvimento backend</span>
+                </h1>
+                <img src="img/1662302620616.jpg" alt="Dayvid William">
+        </section>
+        <section id="formacao">
+            <div id="conteudo-formacao">
                 <h2>Formação</h2>
-                <h3>Formações e oucupações</h3>
-                <p>Ensiono médio completo, atualmente estudo inglês e programação por conta própria tenho açlguns cursos
-                    concluidos na plataforma staart do grupo primo.</p>
-            </article>
-            <article class="sec" id="publicacoes">
-                <h2>Publicações</h2>
-                <h3>projetos no GitHub</h3>
-                <p>Tenho alguns projetos que podem ser encontrados em meu GitHub como automações Web e portifolios Web,
-                    também trenho um projeto criando o jogo da velha.</p>
-            </article>
-            <article class="sec" id="habilidades">
-                <h2>Habilidades</h2>
-                <h3>Skills</h3>
+                
+                <ul id="lista-formacao">
+                    <li class="formacao-item">
+                        <img src="" alt="">
+
+                        <div>
+                            <h3>Curso de git e github na pratica</h3>
+
+                            <span>
+                                <p class="onde">Staart Grupo Primo</p>
+                                <p class="quando">Concluido em 2 de setembro de 2022</p>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="formacao-item">
+                        <img src="" alt="">
+
+                        <div>
+                            <h3>Curso de programação Back End do zero</h3>
+
+                            <span>
+                                <p class="onde">Staart Grupo Primo</p>
+                                <p class="quando">Concluido em 4 de novembro de 2022</p>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="habilidades">
+            <div id="conteudo-habilidades">
+                <h2>
+                    <span>Minhas</span>
+                    Habilidades
+                </h2>
 
                 <ul>
-                    <li><img src="https://cdn-icons-png.flaticon.com/512/1532/1532556.png" alt="HTML" id="html"></li>
-                    <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="css" id="css"></li>
-                    <li><img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java" id="java"></li>
-                    <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" id="js"></li>
-                    <li><img src="https://www.pngmart.com/files/7/Python-PNG-File.png" alt="Python" id="python"></li>
-                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/220px-Selenium_Logo.png" alt="Selenium" id="selenium"></li>
-                </ul>
-            </article>
+                    <li class="tecnoligia">
+                        <img src="img/icone_HTML.png" alt="HTML5">
+                    <p>HTML</p>
+                    </li>
+                    <li class="tecnoligia">
+                        <img src="img/icone_CSS.png" alt="CSS3">
+                    <p>CSS</p>
+                    </li>
+                    <li class="tecnoligia">
+                        <img src="img/icone_JAVA.png" alt="JAVA">
+                    <p>JAVA</p>
+                    </li>
+                    <li class="tecnoligia">
+                        <img src="img/icone_JS.png" alt="JS">
+                    <p>JavaScript</p>
+                    </li>
+                    <li class="tecnoligia">
+                        <img src="img/icone_Python.png" alt="Python">
+                    <p>Python</p>
+                    </li>
+                    <li class="tecnoligia">
+                        <img src="img/icone_Selenium.png" alt="Selenium">
+                    <p>Selenium</p>
+                    </li>
+                </ul> 
+            </div>
         </section>
-        <aside>
-            <h2>Vídeos em destaque</h2>
-
-            <video autoplay mute controls>
-               <source src="/video/Desktop 2022.06.19 - 16.47.37.16.mp4" type="video/mp4" alt="project_video">
-               Seu navegador não suporta vídeos!
-            </video>
-        </aside>
+        <section id="publicacoes">
+            <div id="conteudo-publicacoes">
+                <h2>
+                    <span>Meus</span>
+                    Projetos
+                </h2>
+                <article class="publicacao">
+                    <img src="img/capa_jogoDaVelha.jpg" alt="JogoDaVelha">
+                    <div>
+                        <h3>Jogo da velha para o navegador</h3>
+                        <p>
+                            Neste Projeto crio o jogo da velha para sr jogado atraves do navegador, uso para isso HTML, CSS e JavaScript. Esse projeto foi criado logo apos eu terminar uma jornada de aprendizado de desenvolvimento web com objetivo de pratica minhas habilidades com essas linguagens 
+                        </p>
+                    </div>
+                </article>
+                <article class="publicacao">
+                    <img src="img/capa_automacao.jpg" alt="automacao">
+                    <div>
+                        <h3>Automação Web</h3>
+                        <p>
+                            Neste Projeto crio uma automação web utilizando o Selenium WebDriver junto com JAVA para manipular o MantisBT simulando assim testes automatizados para praticar habilidades de QA.
+                        </p>
+                    </div>
+                </article>
+                <article class="publicacao">
+                    <img src="img/capa_portifolio.jpg" alt="Portifolio">
+                    <div>
+                        <h3>Portifolio</h3>
+                        <p>
+                            Neste projeto Uso HTML, CSS e JavaScript para criar um Portifolio, esse projeto foi criado na intenção de dilvulgar meu trabalho e expor meu progresso com as tecnoligia as quais utilizo.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>  
     </main>
     <footer>
         <h2>Entre em contato</h2>
