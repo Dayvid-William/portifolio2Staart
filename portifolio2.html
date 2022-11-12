@@ -90,6 +90,18 @@
                             </span>
                         </div>
                     </li>
+                    <li class="formacao-item">
+                        <img src="img/unnamed.png" alt="staart-icon">
+
+                        <div>
+                            <h3>Banco de dados</h3>
+
+                            <span>
+                                <p class="onde">Staart Grupo Primo</p>
+                                <p class="quando">Concluido em 11 de novembro de 2022</p>
+                            </span>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -165,20 +177,24 @@
         </section>  
     </main>
     <footer>
-        <h2>Entre em contato</h2>
+        <div id="titulo-fotter">
+            <h2>Entre em contato!</h2>
+            <p>Envie sua mensagem!</p>
+        </div>
+        <div id="conteudo-footer">
         <form>
-            <fieldset id="fieldset1">
-                <legend>Dados pessoais</legend>
-                <label form="nome">Nome </label><input type="text" id="nome" name="nome" placeholder="Digite seu nome">
-                <label form="email">E-mail</label><input type="email" id="email" value="dayvid@teste.com">
-            </fieldset>
-            <fieldset id="fieldset2">
-                <legend>Dados para contato</legend>
-                <label form="tel">Telefone</label><input type="tel" id="tel" required="true">
-                <label form="url">Website</label><input type="url" id="url">
-            </fieldset>
+            <input type="text" placeholder="Nome Completo" required="true">
+            <input type="email" placeholder="E-mail" required="true">
+            <input type="tel" placeholder="Telefone" required="true">
+            <textarea
+              placeholder="Mensagem"
+              rows="7"
+              autocapitalize="sentences"
+              required="true"
+            ></textarea>
             <input type="submit" value="Enviar mensagem" id="submit">
         </form>
+        </div>
     </footer>
 </body>
 
