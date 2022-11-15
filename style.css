@@ -98,7 +98,126 @@ section#inicio img {
   -webkit-mask-image: linear-gradient(to left, var(--background), transparent);
   mask-image: linear-gradient(to left, var(--background), transparent);
 
-  position: absolute;
+  position: relative;
   right: 0;
   z-index: -1;
 }
+
+section#formacao {
+    background-color: var(--tertiary);
+  }
+  
+  section#formacao div#conteudo-formacao {
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 80px 0;
+  }
+  
+  div#conteudo-formacao h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 95px;
+  }
+  
+  div#conteudo-formacao li.formacao-item {
+    display: flex;
+  
+    font-family: Lato;
+  }
+  
+  div#conteudo-formacao ul#lista-formacao {
+    flex-direction: column;
+    margin-top: 37px;
+  }
+  
+  li.formacao-item:not(:first-child) {
+    margin-top: 45px;
+  }
+  
+  li.formacao-item div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    margin-left: 24px;
+  }
+  
+  li.formacao-item h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  li.formacao-item p.onde {
+    font-size: 16px;
+  
+    color: var(--title);
+  }
+  
+  li.formacao-item p.quando {
+    font-size: 14px;
+    color: var(--text);
+  }
+
+section#habilidades {
+    background-color: var(--primary);
+  }
+  
+  section#habilidades div#conteudo-habilidades {
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 154px 0;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  div#conteudo-habilidades h2 {
+    color: var(--white);
+    font-weight: 700;
+  }
+  
+  div#conteudo-habilidades h2 {
+    font-size: 48px;
+  }
+  
+  div#conteudo-habilidades h2 span {
+    font-size: 24px;
+  }
+  
+  div#conteudo-habilidades ul#tecnologias {
+    width: 100%;
+    margin-left: 49px;
+  
+    display: flex;
+  }
+  
+  ul#tecnologias li.tecnologia {
+    background-color: var(--white);
+  }
+  
+  li.tecnologia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 159px;
+    height: 159px;
+    border-radius: 8px;
+  
+    box-shadow: 0px 36px 28px -24px rgba(0, 0, 0, 0.2);
+  }
+  
+  li.tecnologia:not(:last-child) {
+    margin-right: 24px;
+  }
+  
+  li.tecnologia p {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    color: var(--primary);
+    margin-top: 8px;
+  }
