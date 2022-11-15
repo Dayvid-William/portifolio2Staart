@@ -67,6 +67,11 @@ ul#redes img {
   display: block;
 }
 
+#ap{
+    font-weight: 700;
+    color: var(--title);
+}
+
 section#inicio {
   max-width: var(--container);
   margin: 0 auto;
@@ -94,11 +99,10 @@ section#inicio img {
   display: block;
   object-fit: contain;
   width: 493px;
-  
-  -webkit-mask-image: linear-gradient(to left, var(--background), transparent);
-  mask-image: linear-gradient(to left, var(--background), transparent);
+  border-radius: 40px;
 
   position: relative;
+  margin: 40px;
   right: 0;
   z-index: -1;
 }
@@ -156,6 +160,11 @@ section#formacao {
   li.formacao-item p.quando {
     font-size: 14px;
     color: var(--text);
+  }
+
+  section#formacao img {
+    height: 200px;
+    width: 200px;
   }
 
 section#habilidades {
